@@ -84,10 +84,6 @@ docs/       architecture notes
 
 Run `prompt-lab seed` to create a completed sample experiment. The platform uses a deterministic demo response so experimentation logic can be tested without an API key.
 
-## GitHub
-
-See [GITHUB_SETUP.md](GITHUB_SETUP.md) for the exact push commands and [DAILY_COMMIT_PLAN.md](DAILY_COMMIT_PLAN.md) for genuine follow-up improvements.
-
 ## License
 
 [MIT](LICENSE)

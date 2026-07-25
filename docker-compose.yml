@@ -1,0 +1,10 @@
+services:
+  api:
+    build: .
+    ports: ["8609:8609"]
+    volumes: ["./runtime:/app/runtime"]
+  dashboard:
+    build: .
+    command: streamlit run dashboard/app.py --server.address=0.0.0.0 --server.port=8501
+    ports: ["8509:8501"]
+    volumes: ["./runtime:/app/runtime"]
